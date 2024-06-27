@@ -1,0 +1,317 @@
+/* html #1 */
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#para1 {
+  font-size: 1.2em;
+  border: 2px dashed rgb(75, 138, 231);
+  border-radius: 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  padding: 5px;
+}
+
+#para2 {
+  font-size: 1.2em;
+  border: 2px dashed rgb(243, 45, 61);
+  border-radius: 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  padding: 5px;
+}
+
+#para3 {
+  font-size: 1.2em;
+  border: 2px dashed rgb(129, 196, 134);
+  border-radius: 4px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  padding: 5px;
+}
+
+/* both */
+body {
+  background-color: rgb(206, 197, 209);
+}
+
+.blue {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(75, 138, 231);
+  padding: 15px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(75, 138, 231);
+  margin-top: 40px;
+}
+
+.blue:hover {
+  background-image: linear-gradient(to bottom right, rgb(83, 142, 230), rgb(217, 231, 253));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.blue_footer {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(75, 138, 231);
+  padding: 10px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(75, 138, 231);
+  margin-top: 20px;
+}
+
+.blue_footer:hover {
+  background-image: linear-gradient(to bottom right, rgb(83, 142, 230), rgb(217, 231, 253));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.strawberry {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(243, 45, 61);
+  padding: 15px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(243, 45, 61);
+  margin-top: 40px;
+}
+
+.strawberry:hover {
+  background-image: linear-gradient(to bottom right, rgb(243, 45, 61), rgb(247, 187, 192));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.strawberry_footer {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(243, 45, 61);
+  padding: 10px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(243, 45, 61);
+  margin-top: 20px;
+}
+
+.strawberry_footer:hover {
+  background-image: linear-gradient(to bottom right, rgb(243, 45, 61), rgb(247, 187, 192));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.mint {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(126, 221, 134);
+  padding: 15px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(126, 221, 134);
+  margin-top: 40px;
+}
+
+.mint:hover {
+  background-image: linear-gradient(to bottom right, rgb(182, 255, 188), rgb(239, 255, 241));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.mint_footer {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(126, 221, 134);
+  padding: 10px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(126, 221, 134);
+  margin-top: 20px;
+}
+
+.mint_footer:hover {
+  background-image: linear-gradient(to bottom right, rgb(182, 255, 188), rgb(239, 255, 241));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  padding-top: 60px;
+}
+
+/* html #2 */
+.home {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 40px;
+}
+
+.home:hover {
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(97, 97, 97));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.home_footer {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-style: italic;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.555);
+  border-radius: 5px 20px 5px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 20px;
+}
+
+.home_footer:hover {
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(97, 97, 97));
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+form {
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px dotted rgb(255, 255, 255);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+#bluef {
+  font-size: 1.2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+
+#strawberryf {
+  font-size: 1.2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+
+#mintf{
+  font-size: 1.2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+
+#blue_title {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgb(75, 138, 231);
+}
+
+#strawberry_title {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgb(243, 45, 61);
+}
+
+#mint_title {
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: underline;
+  color: rgb(129, 196, 134);
+}
+
+.frogimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+  flex-wrap: wrap;
+}
